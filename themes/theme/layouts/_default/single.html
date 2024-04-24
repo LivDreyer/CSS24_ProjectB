@@ -3,40 +3,43 @@
 {{- partial "head.html" . -}}
 <body> 
     {{- partial "header.html" . -}}
-    <!--Container-->
-    <div class="relative overflow-hidden rounded-lg bg-cover bg-no-repeat p-12 text-center" style="background-image: url('https://images.unsplash.com/photo-1573152958734-1922c188fba3?q=80&w=3132&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); height: 800px">
-
-        <div class="w-full px-4 md:px-6 text-xl text-gray-800 leading-normal" style="font-family:Georgia,serif;">
-            <!--Title-->
-            <div class="font-sans">
-                <h1 class="font-bold font-sans break-normal text-gray-900 pt-6 pb-2 text-3xl md:text-4xl">{{
-                    .Title }}</h1>
-            </div>
-            {{ .Content }}
-            <!--Divider-->
-            <hr class="border-b-2 border-gray-400 mt-8 mx-4">
-            <!--Next & Prev Links-->
-            <div class="font-sans flex justify-between content-center px-4 pb-12">
-                <div class="text-left">
-                    {{ if isset .Params "prev" }}
-                    <p><a href="{{ if eq .Params.prev "/" }}{{ .Site.BaseURL }}{{ else }}/{{ .Params.prev }}{{end}}"
-                            class="break-normal text-base md:text-sm text-green-500 font-bold no-underline hover:underline">&lt;
-                            Previous Page</a></p>
-                    {{ end }}
+    
+    <!-- Background Image -->
+    <div class="relative overflow-hidden bg-cover bg-no-repeat" style="background-image: url('https://images.unsplash.com/photo-1573152958734-1922c188fba3?q=80&w=3132&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); height: 800px">
+        
+        <!-- Gray Box Content -->
+        <div class="absolute inset-0 flex items-center justify-center bg-gray-800 bg-opacity-75">
+            <div class="w-full px-4 md:px-6 text-xl text-gray-800 leading-normal" style="font-family:Georgia,serif;">
+                <!--Title-->
+                <div class="font-sans">
+                    <h1 class="font-bold font-sans break-normal text-gray-900 pt-6 pb-2 text-3xl md:text-4xl">{{
+                        .Title }}</h1>
                 </div>
-                <div class="text-right">
-                    {{ if isset .Params "next" }}
-                    <p><a href="/{{ .Params.next }}"
-                            class="break-normal text-base md:text-sm text-green-500 font-bold no-underline hover:underline">Next
-                            Page &gt;</a></p>
-                    {{ end }}
+                {{ .Content }}
+                <!--Divider-->
+                <hr class="border-b-2 border-gray-400 mt-8 mx-4">
+                <!--Next & Prev Links-->
+                <div class="font-sans flex justify-between content-center px-4 pb-12">
+                    <div class="text-left">
+                        {{ if isset .Params "prev" }}
+                        <p><a href="{{ if eq .Params.prev "/" }}{{ .Site.BaseURL }}{{ else }}/{{ .Params.prev }}{{end}}"
+                                class="break-normal text-base md:text-sm text-green-500 font-bold no-underline hover:underline">&lt;
+                                Previous Page</a></p>
+                        {{ end }}
+                    </div>
+                    <div class="text-right">
+                        {{ if isset .Params "next" }}
+                        <p><a href="/{{ .Params.next }}"
+                                class="break-normal text-base md:text-sm text-green-500 font-bold no-underline hover:underline">Next
+                                Page &gt;</a></p>
+                        {{ end }}
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <!--/container-->
+    
     {{- partial "footer.html" . -}}
     {{- partial "progressive-bar.html" . -}}
 </body>
-
 </html>
