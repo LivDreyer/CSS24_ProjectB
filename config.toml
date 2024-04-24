@@ -1,10 +1,10 @@
 baseURL = "https://peterampazzo.github.io/project-website-template/"
-title = "Project Title"
+title = "Social Informatics"
 description = "This is a project description"
 relativeURLs = true
 theme = "theme" 
 [params]
-    authors = ["Henrik Nielsen", "Inga Jensen", "Mikkel Andersen"]
+    authors = ["Andreas Rosenquist", "Felix Lund Frandsen", "Liv Dreyer Johansen"]
     notebook = "/explainer-notebook.html"
     data = "https://drive.google.com"
     github = "https://github.com/peterampazzo/project-website-template"
