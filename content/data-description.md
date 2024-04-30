@@ -10,7 +10,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nulla tellus, tempus
 ## Kaggle 
 
 - What is kaggle? One line
-- Short introduction to our [dataset](#https://www.kaggle.com/datasets/spoorthiuk/us-top-10k-artists-and-their-popular-songs).
+- Short introduction to our [dataset](https://www.kaggle.com/datasets/spoorthiuk/us-top-10k-artists-and-their-popular-songs).
 - Basic description of dataset (attributes, rows, MB).
 - Include example table of above.
 
