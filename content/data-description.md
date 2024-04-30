@@ -4,7 +4,13 @@ prev: "/"
 next: network-analysis
 ---
 
+## Short introduction to datasets and motivation for using them
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nulla tellus, tempus sed lobortis quis, venenatis ac ante. Maecenas accumsan augue ultricies metus hendrerit, in ultrices urna fringilla. Suspendisse lobortis egestas magna, sit amet fermentum ligula tincidunt vitae. Suspendisse cursus non dui a vulputate. Cras vestibulum vulputate enim eu placerat. Ut scelerisque semper justo sit amet auctor. Aliquam sit amet iaculis tortor.
+
+## Kaggle 
+
+- What is kaggle? One line
+- Introduction to our dataset https://www.kaggle.com/datasets/spoorthiuk/us-top-10k-artists-and-their-popular-songs
 
 > Nulla in justo hendrerit, tincidunt mauris et, porta est. Donec in leo vitae est ultrices dapibus id nec tortor. Maecenas ut ipsum eu nisl cursus facilisis scelerisque eu ex. Aliquam euismod elementum libero, at vehicula ipsum.
 
