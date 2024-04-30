@@ -10,8 +10,15 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nulla tellus, tempus
 ## Kaggle 
 
 - What is kaggle? One line
-- Introduction to our dataset https://www.kaggle.com/datasets/spoorthiuk/us-top-10k-artists-and-their-popular-songs
+- Short introduction to our [dataset](#https://www.kaggle.com/datasets/spoorthiuk/us-top-10k-artists-and-their-popular-songs).
+- Basic description of dataset (attributes, rows, MB).
+- Include example table of above.
 
+## Spotify API
+- Spotify API general info, incl. rate limit free version, owner, rights etc.
+- How are we pulling from the API using Kaggle? Explain how many features we are including (refer to figure 1).
+- Basic description of dataset (attributes, rows, MB).
+- Include example table of above.
 > Nulla in justo hendrerit, tincidunt mauris et, porta est. Donec in leo vitae est ultrices dapibus id nec tortor. Maecenas ut ipsum eu nisl cursus facilisis scelerisque eu ex. Aliquam euismod elementum libero, at vehicula ipsum.
 
 Nam commodo lorem quis tortor euismod, ut ultrices orci aliquet. Sed eget dui nec sem ullamcorper convallis id nec ante. Aliquam ultricies a massa quis semper. Donec suscipit augue ut sagittis hendrerit. Aliquam erat volutpat. Proin aliquet maximus nibh, id aliquet justo maximus at. Sed accumsan ante id aliquam pellentesque. 
