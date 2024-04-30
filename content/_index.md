@@ -9,6 +9,8 @@ Donec posuere justo at risus [efficitur convallis](#). Donec enim nibh, aliquet 
 
 
 {{< figure src="/images/FP-explainer.png" width="700" alt="explainer" class="center" >}}
+<p style="text-align: center;">Figure 1: Visual representation of data.</p>
+
 
 ## More Motivation
 
