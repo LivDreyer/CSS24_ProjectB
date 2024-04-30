@@ -16,6 +16,10 @@
         /*Refresh scroll % width*/
         scroll = (h[st] || b[st]) / ((h[sh] || b[sh]) - h.clientHeight) * 100;
         progress.style.setProperty('--scroll', scroll + '%');
+
+        /* Adjust progress bar position */
+        var containerRect = container.getBoundingClientRect();
+        progress.style.left = containerRect.left + 'px';
         
         /*Adjust progress bar width*/
         var containerWidth = document.querySelector('.container').offsetWidth;
