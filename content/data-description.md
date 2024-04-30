@@ -9,9 +9,9 @@ next: network-analysis
 Test1
 
 <div style="text-align: center;">
-    <a href="https://docs.genius.com" style="margin-right: 20px; display: inline-block;"><img src="/images/genius-logo.webp" alt="Genius Lyrics" width="40" height="40"></a>
-    <a href="https://developer.spotify.com/documentation/web-api" style="margin-right: 20px; display: inline-block;"><img src="/images/spotify-logo.png" alt="Spotify" width="40" height="40"></a>
-    <a href="https://www.kaggle.com/datasets/spoorthiuk/us-top-10k-artists-and-their-popular-songs" style="display: inline-block;"><img src="/images/kaggle-logo.webp" alt="Kaggle" width="40" height="40"></a>
+    <a href="https://docs.genius.com" style="margin-right: 40px; display: inline-block;"><img src="/images/genius-logo.webp" alt="Genius Lyrics" width="80" height="80"></a>
+    <a href="https://developer.spotify.com/documentation/web-api" style="margin-right: 40px; display: inline-block;"><img src="/images/spotify-logo.png" alt="Spotify" width="80" height="80"></a>
+    <a href="https://www.kaggle.com/datasets/spoorthiuk/us-top-10k-artists-and-their-popular-songs" style="display: inline-block;"><img src="/images/kaggle-logo.webp" alt="Kaggle" width="80" height="80"></a>
 </div>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nulla tellus, tempus sed lobortis quis, venenatis ac ante. Maecenas accumsan augue ultricies metus hendrerit, in ultrices urna fringilla. Suspendisse lobortis egestas magna, sit amet fermentum ligula tincidunt vitae. Suspendisse cursus non dui a vulputate. Cras vestibulum vulputate enim eu placerat. Ut scelerisque semper justo sit amet auctor. Aliquam sit amet iaculis tortor.
