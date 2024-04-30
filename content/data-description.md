@@ -21,7 +21,15 @@ Data from API's such as the Spotify API and the Genius Lyrics API alongside addt
 ## Kaggle 
 Kaggle serves as a data science community offering various tools and resources for researchers and scientists. This analysis utilizes a [dataset](https://www.kaggle.com/datasets/spoorthiuk/us-top-10k-artists-and-their-popular-songs) created by Spoorthi Uday Karakaraddi and it provides "*a comprehensive collection of the top 10 popular songs for each of the 10,000 most-listened-to artists in the United States*" from 2023.
 
-This project only utilize...
+This project only utilize the file containing the artists and their associated attributes. After data processing, we obtain the following information:
+
+| Name          | ID                    | Genres                                            | Popularity | Followers |
+|---------------|-----------------------|---------------------------------------------------|------------|-----------|
+| Drake         | 3TVXtAsR1Inumwj472S9r4 | ['canadian hip hop', 'canadian pop', 'hip hop', 'pop rap', 'rap'] | 95         | 83,298,497|
+| Post Malone   | 246dkjvS1zLTtiykXe5h60 | ['dfw rap', 'melodic rap', 'pop', 'rap']          | 86         | 43,130,108|
+| ...           | ...                   | ...                                               | ...        | ...       |
+| Pitbull       | 0TnOYISbd1XYRBk9myaseg | ['dance pop', 'miami hip hop', 'pop']             | 80         | 10,383,655|
+
 
 - Basic description of dataset (attributes, rows, MB).
 - Include example table of above.
