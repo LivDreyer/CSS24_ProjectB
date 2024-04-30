@@ -19,9 +19,10 @@ Finding data on artists is crucial to answering the research question: *"What is
 Data from API's such as the Spotify API and the Genius Lyrics API alongside addtional data from Kaggle will act as the foundation for the analysis that will hopefully lead to our enlightenment on the above research question. Collecting all data used for this project bears sign of a "chain-reaction". The dataset "US Top 10K Artists and Their Popular Songs" from Kaggle created a foundation for fetching data from the Spotify API, that then allowed for fetching data from the Genius Lyrics API which was then used for webscraping within the legal limits of Genius Lyrics.  
 
 ## Kaggle 
+Kaggle serves as a data science community offering various tools and resources for researchers and scientists. This analysis utilizes a [dataset](https://www.kaggle.com/datasets/spoorthiuk/us-top-10k-artists-and-their-popular-songs) created by Spoorthi Uday Karakaraddi and it provides "*a comprehensive collection of the top 10 popular songs for each of the 10,000 most-listened-to artists in the United States*" from 2023.
 
-- What is kaggle? One line
-- Short introduction to our [dataset](https://www.kaggle.com/datasets/spoorthiuk/us-top-10k-artists-and-their-popular-songs).
+This project only utilize...
+
 - Basic description of dataset (attributes, rows, MB).
 - Include example table of above.
 
