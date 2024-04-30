@@ -9,11 +9,11 @@ next: network-analysis
 Test1
 
 <div style="text-align: center;">
-    <div style="border-top: 1px solid #22c55e; margin-bottom: 10px;"></div>
+    <div style="border-top: 3px solid #22c55e; margin-bottom: 10px;"></div>
     <a href="https://docs.genius.com" style="margin-right: 60px; display: inline-block;"><img src="/images/genius-logo.webp" alt="Genius Lyrics" width="110" height="110" style="border-radius: 10px;"></a>
     <a href="https://developer.spotify.com/documentation/web-api" style="margin-right: 60px; display: inline-block;"><img src="/images/spotify-logo.png" alt="Spotify" width="110" height="110" style="border-radius: 10px;"></a>
-    <a href="https://www.kaggle.com/datasets/spoorthiuk/us-top-10k-artists-and-their-popular-songs" style="display: inline-block;"><img src="/images/kaggle-logo.webp" alt="Kaggle" width="110" height="110"></a>
-    <div style="border-bottom: 1px solid #22c55e; margin-top: 10px;"></div>
+    <a href="https://www.kaggle.com/datasets/spoorthiuk/us-top-10k-artists-and-their-popular-songs" style="display: inline-block;"><img src="/images/kaggle-logo.webp" alt="Kaggle" width="150" height="150"></a>
+    <div style="border-bottom: 3px solid #22c55e; margin-top: 10px;"></div>
 </div>
 
 
