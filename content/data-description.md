@@ -6,7 +6,7 @@ next: network-analysis
 
 ## Short introduction to datasets and motivation for using them
 
-Finding data on artists is crucial to answering the research question: *"What is the relationship between artist collaboration patterns, popularity, and lyrical expression of genre themes?"*. Data from API's such as the Spotify API and the Genius Lyrics API alongside addtional data from Kaggle will act as the foundation for the analysis that will hopefully lead to our enlightenment on the above research question. Collecting all data used for this project bears sign of a "chain-reaction". The dataset "US Top 10K Artists and Their Popular Songs" from Kaggle created a foundation for fetching data from the Spotify API, that then allowed for fetching data from the Genius Lyrics API which was then used for webscraping within the legal limits of Genius Lyrics.  
+Finding data on artists is crucial to answering the research question: *"What is the relationship between artist collaboration patterns, popularity, and lyrical expression of genre themes?"*. 
 
 <div style="text-align: center;">
     <div style="border-top: 3px solid #22c55e; margin-bottom: 10px;"></div>
@@ -16,8 +16,7 @@ Finding data on artists is crucial to answering the research question: *"What is
     <div style="border-bottom: 3px solid #22c55e; margin-top: 10px;"></div>
 </div>
 
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nulla tellus, tempus sed lobortis quis, venenatis ac ante. Maecenas accumsan augue ultricies metus hendrerit, in ultrices urna fringilla. Suspendisse lobortis egestas magna, sit amet fermentum ligula tincidunt vitae. Suspendisse cursus non dui a vulputate. Cras vestibulum vulputate enim eu placerat. Ut scelerisque semper justo sit amet auctor. Aliquam sit amet iaculis tortor.
+Data from API's such as the Spotify API and the Genius Lyrics API alongside addtional data from Kaggle will act as the foundation for the analysis that will hopefully lead to our enlightenment on the above research question. Collecting all data used for this project bears sign of a "chain-reaction". The dataset "US Top 10K Artists and Their Popular Songs" from Kaggle created a foundation for fetching data from the Spotify API, that then allowed for fetching data from the Genius Lyrics API which was then used for webscraping within the legal limits of Genius Lyrics.  
 
 ## Kaggle 
 
