@@ -10,12 +10,16 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nulla tellus, tempus
 
 Cras vestibulum vulputate enim eu placerat. Ut scelerisque semper justo sit amet auctor. Aliquam sit amet iaculis tortor.
 
+![](/images/spotifycode.png)
+<p style="text-align: center;">Figure 4: If you would like to listen to a playlist of the 1000 songs used, scan this code with your Spotify app!</p>
+
+
 ## Explaination of analysis 
 
 Nam commodo lorem quis tortor euismod, ut ultrices orci aliquet. Sed eget dui nec sem ullamcorper convallis id nec ante. Aliquam ultricies a massa quis semper. Donec suscipit augue ut sagittis hendrerit. Aliquam erat volutpat. Proin aliquet maximus nibh, id aliquet justo maximus at. Sed accumsan ante id aliquam pellentesque. Aliquam nec hendrerit quam. Suspendisse maximus eros sollicitudin, accumsan turpis eu, blandit nulla. Nunc lorem elit, molestie at libero gravida, placerat consectetur ante. Sed tincidunt viverra tellus a vehicula.
 
-![](/images/network-placement-image.png)
-<p style="text-align: center;">Figure 3: Wordclouds</p>
+![](/images/wordclouds.png)
+<p style="text-align: center;">Figure 5: The result of our textual analysis formatted in wordclouds.</p>
 
 - Discussion
 
