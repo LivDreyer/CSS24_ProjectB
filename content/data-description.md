@@ -89,7 +89,7 @@ Our dataset resulting from querying the Spotify API now consists of 14,888 rows.
 This dataframes constructed throughout our data collection from the Spotify API, are used for both the network analysis, and to furthermore collect data from the Genius API. Through the top 10 tracks of each artist, we find the names of their collaborators, and use this information for creating our network. How we use it for the textual analysis will be introduced in the next section! 
 
 # Genius 
-- Genius API general info, incl. rate limit free version, owner, rights etc.
+The Genius API offers access to a vast database of song lyrics. Genius state that their API implements rate limits of 1000 requests a day, and though we did not encount it, we only worked with 1000 requests.
 
 Using the dataset collected from the Spotify API, we divide the artists into broader defined genres than what Spotify has associated each artist with. Using the information on each artists follower-count, we determine the 10 most popular genres. From there, we find the top 100 most popular artists within each genre and randomly choose one of their top 10 tracks. We then retrieve the Genius URL of each song, letting us webscrape the lyrics of all 1000 songs. This method results in a dataset with the following attributes: *Main Artist*, *Genre*, *Song Name*, and *Song Lyrics*. This dataset will be used in the textual analysis to study the difference in lyrical expression between genres. Below we have included examples of three songs in the genres *pop*, *hiphop*, and *rock* that are included in the dataset: 
 
