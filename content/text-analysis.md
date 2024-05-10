@@ -1,5 +1,5 @@
 ---
-title: Text analysis
+title: Text Analysis
 prev: network-analysis
 ---
 
