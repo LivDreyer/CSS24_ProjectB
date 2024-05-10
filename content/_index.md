@@ -5,20 +5,18 @@ next: data-description
 ---
 
 ## Motivation 
-Donec posuere justo at risus [efficitur convallis](#). Donec enim nibh, aliquet vel risus id, tincidunt consectetur felis. Proin porttitor odio a orci accumsan bibendum id at risus. Sed a posuere odio, ac lobortis augue. Maecenas aliquet ipsum vel libero dignissim, non aliquet justo eleifend. Fusce mollis, ante eget tincidunt imperdiet, mi ligula venenatis ex, ut pulvinar nunc ipsum tempus eros. Aliquam erat volutpat. Sed id _iaculis arcu_, sit amet varius libero. Etiam quis nisl pretium, eleifend quam nec, rutrum sapien. **Donec rutrum accumsan orci.**
+Since the 1990’s, the number of songs with featuring artists have increased around 30%. A *featuring artist* is someone who appear as a secondary artist on a song. In 2023, 33 songs out of *Billboards* “Year-End Hot 100 singles” were created by more than one artist. Why is this? When an artist creates a song with one or more featuring artist(s), the featuring artist(s) is (are) essentially “guesting”, contributing their skill and brand to the song and its marketing. When speaking of features, or collaborations, it is often referring to vocals, while it is rarely used in reference to producers, samples, or others contributing to the process of creation in that sense. 
 
+The increase in such music collaborations have inspired researchers to study the success of songs with featuring artists opposed to those without , finding that releasing collaborative songs can increase an artist’s future plays. Furthermore, studies addressing the significance of genres in collaborative music find that greater difference between the genres of collaborating artists increase the likelihood of a song becoming popular. 
 
 {{< figure src="/images/FP-explainer.png" width="700" alt="explainer" class="center" >}}
 <p style="text-align: center;">Figure 1: Visual representation of data.</p>
 
 
-## More Motivation
+This project aims to answer the research question: "*What is the relationship between artist collaboration patterns, popularity, and lyrical expression of genre themes?*" using modern data science methods. 
+To answer this question, we center our network analysis around the world’s largest music streaming service: Spotify. Given our project's focus on artist popularity, we employ Spotify for the following reason: With streaming services contributing to 84% of the music industry's revenue, and Spotify holding a dominant market share of 30.5%, the platform offers a comprehensive insight to artist popularity. For those reasons, our project utilizes the [Spotify API](https://developer.spotify.com/documentation/web-api) to gain insights into several aspects of top US artists including artist collaborations, popularity, and top songs. To examine lyrical differences between genres, and in this context artists who may collaborate, we utilize the [Genius API](https://docs.genius.com/#/getting-started-h1) which serve as an "online music encyclopedia" .
+This project begins from the Kaggle dataset ["US Top 10K Artists and Their Popular Songs"](https://www.kaggle.com/datasets/spoorthiuk/us-top-10k-artists-and-their-popular-songs). The dataset, created by Spoorthi Uday Karakaraddi, was collected using the Spotify API and features several attributes of the top 10k artists in the US in 2023. It serves as the foundation for constructing the datasets used for network analysis, and the textual analysis.
 
-Sed id orci ullamcorper, commodo sapien in, scelerisque nunc. Duis posuere sed nisl in gravida. Pellentesque rutrum justo ut mi tempus dignissim. Ut pulvinar quis urna ut molestie. Pellentesque nec arcu metus. Vivamus non rutrum magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-
-Phasellus viverra tellus viverra purus placerat, et lacinia mauris tristique. Nam semper venenatis lorem, nec ullamcorper tortor dignissim eget. Etiam non ipsum sed neque pharetra ullamcorper. Praesent ultrices ipsum varius dictum lacinia. Nulla placerat magna augue, volutpat rutrum nulla finibus sed. Phasellus maximus mi sit amet risus mattis, porta rhoncus elit dictum. Donec vel viverra lectus, vitae elementum arcu. Quisque quis molestie elit. Cras eget tellus vitae risus fermentum bibendum vitae ac turpis. Praesent mi eros, scelerisque sit amet sem at, hendrerit accumsan ligula.
-
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nec mauris aliquet, convallis ligula vel, mollis est. Fusce accumsan massa vel lectus dapibus, at vehicula elit auctor.
 
 ## [Explainer Notebook](explainer-notebook.html)
 
