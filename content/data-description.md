@@ -40,14 +40,6 @@ Taking our starting point in the "US Top 10K Artists and Their Popular Songs"-da
 
 Our dataset resulting from querying the Spotify API now consists of 14888 rows. Each row represents an artist, and has the following important attributes: *Main Artist*, *Names of Top 10 Songs*, *Main Artist ID*, *Genres associated with Main Artist*, *Popularity*, *Followers*. 
 
-| Main Artist           | Song Names                                       | Genres                                                                         | Popularity | Followers | ID                 |
-|-----------------------|--------------------------------------------------|--------------------------------------------------------------------------------|------------|-----------|--------------------|
-| A Tribe Called Quest | ['Can I Kick It?', ..., 'Check the Rhime']       | [conscious hip hop, <br>east coast hip hop, <br>golden age hip hop, <br>hip hop, <br>jazz rap, <br>queens hip hop] | 67         | 2,081,598 | 09hVIj6vWgoCDtT03h8ZCa |
-
-- Basic description of dataset (attributes, rows, MB).
-- Include example table of above.
-- Short intro to what we are using it for (motivation 1 sentence, mention network analysis) 
-
 <table>
   <tr>
     <td style="padding-right: 10px;">Main Artist</td>
@@ -65,9 +57,34 @@ Our dataset resulting from querying the Spotify API now consists of 14888 rows. 
     <td>2,081,598</td>
     <td>09hVIj6vWgoCDtT03h8ZCa</td>
   </tr>
-</table>
+  <tr>
+    <td>Bruno Mars</td>
+    <td>['Locked out of heaven', ..., 'Grenade']</td>
+    <td>[dance pop, pop]</td>
+    <td>89</td>
+    <td>54,550,331</td>
+    <td>0du5cEVh5yTK9QJze8zA0C</td>
+  </tr>
+  <tr>
+    <td>...</td>
+    <td>...</td>
+    <td>...</td>
+    <td>...</td>
+    <td>...</td>
+    <td>...</td>
+  </tr>
+  <tr>
+    <td>DJ Khaled</td>
+    <td>[''Wild Thoughts (feat. Rihanna & Bryson Tiller)', ..., <br>'POPSTAR (feat. Drake)']</td>
+    <td>[hip hop, miami hip hop, <br>pop rap, rap]</td>
+    <td>75</td>
+    <td>11,185,726</td>
+    <td>0QHgL1lAIqAw0HtD7YldmP</td>
+  </tr>
 
-
+- Basic description of dataset (attributes, rows, MB).
+- Include example table of above.
+- Short intro to what we are using it for (motivation 1 sentence, mention network analysis) 
 
 
 # Genius 
