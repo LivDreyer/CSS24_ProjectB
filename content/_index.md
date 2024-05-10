@@ -14,4 +14,4 @@ This project begins from the Kaggle dataset ["US Top 10K Artists and Their Popul
 
 ## [Explainer Notebook](ProjectB_final1.html)
 
-This website will provide an overview of our findings. If you are interested in exploring our data or analyses further, please check out our Explainer Notebook! 
+This website will provide an overview of our findings. If you are interested in exploring our data or analyses further, please check out our Explainer Notebook! You can also find our datasets below.
