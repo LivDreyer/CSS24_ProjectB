@@ -14,6 +14,6 @@ To answer this question, we center our network analysis around the world’s lar
 This project begins from the Kaggle dataset ["US Top 10K Artists and Their Popular Songs"](https://www.kaggle.com/datasets/spoorthiuk/us-top-10k-artists-and-their-popular-songs). The dataset, created by Spoorthi Uday Karakaraddi, was collected using the Spotify API and features several attributes of the top 10k artists in the US in 2023. It serves as the foundation for constructing the datasets used for network analysis, and the textual analysis.
 
 
-## [Explainer Notebook](explainer-notebook.html)
+## [Explainer Notebook](file:///Users/livdreyerjohansen/Downloads/ProjectB.html)
 
 This website will provide an overview of our findings. If you are interested in exploring our data or analyses further, please check out our Explainer Notebook! 
