@@ -5,7 +5,7 @@ relativeURLs = true
 theme = "theme" 
 [params]
     authors = ["Andreas Rosenquist", "Felix Lund Frandsen", "Liv Dreyer Johansen"]
-    notebook = "/explainer-notebook.html"
+    notebook = "/ProjectB_final.html"
     data = "https://drive.google.com"
     github = "https://github.com/LivDreyer/CSS24.git"
     [[params.nav]]
