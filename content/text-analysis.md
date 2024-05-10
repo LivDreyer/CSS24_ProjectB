@@ -10,9 +10,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nulla tellus, tempus
 
 Cras vestibulum vulputate enim eu placerat. Ut scelerisque semper justo sit amet auctor. Aliquam sit amet iaculis tortor.
 
-![](/images/spotifycode.png)
-
-{{< figure src="/images/spotifycode.png" width="400" alt="explainer" class="center" >}}
+{{< figure src="/images/spotifycode.png" width="350" alt="explainer" class="center" >}}
 <p style="text-align: center;">Figure 4: If you would like to listen to a playlist of the 1000 songs used, scan this code with your Spotify app!</p>
 
 
