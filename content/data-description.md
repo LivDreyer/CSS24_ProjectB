@@ -75,8 +75,8 @@ Our dataset resulting from querying the Spotify API now consists of 14888 rows. 
   </tr>
   <tr>
     <td>DJ Khaled</td>
-    <td>[''Wild Thoughts (feat. Rihanna & Bryson Tiller)', ..., <br>'POPSTAR (feat. Drake)']</td>
-    <td>[hip hop, miami hip hop, <br>pop rap, rap]</td>
+    <td>['GREECE (feat. Drake)', ..., <br>'POPSTAR (feat. Drake)']</td>
+    <td>[hip hop, <br>miami hip hop, <br>pop rap, rap]</td>
     <td>75</td>
     <td>11,185,726</td>
     <td>0QHgL1lAIqAw0HtD7YldmP</td>
