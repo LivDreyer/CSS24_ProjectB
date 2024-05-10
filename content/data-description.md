@@ -33,10 +33,17 @@ We are only using the top 4250 artists from the dataset due to the rate limit of
 # Spotify API
 - Spotify API general info, incl. rate limit free version, owner, rights etc.
 
-Taking our starting point in the "US Top 10K Artists and Their Popular Songs"-dataset, we query the Spotify API a multitude of times to construct the dataset for our network analysis and textual analysis. Using the Artists from the Kaggle dataset to collect their top 10 most popular tracks on Spotify, we find their collaborations. We then query the Spotify API for the top 10 tracks of the featured artists to find their possible collaborations. While its possible to expand our dataset to include more artists, we will cap the dataset at the 4250 artists collected from the Kaggle dataset (iteration 1) and the artists featured on their top 10 tracks (iteration 2) totalling around 14000 artists in total. This is largely due to the rate limit of the Spotify API and the scope of this project. This means that artists featured on songs by artists found in the second iteration who are not already a part of either iteration 1 or 2 will not be included in the dataset. This is visualized in figure 2.
+Taking our starting point in the "US Top 10K Artists and Their Popular Songs"-dataset, we query the Spotify API a multitude of times to construct the dataset for our network analysis and textual analysis. Using the Artists from the Kaggle dataset to collect their top 10 most popular tracks on Spotify, we find their collaborations. We then query the Spotify API for the top 10 tracks of the featured artists to find their possible collaborations. While its possible to expand our dataset to include more artists, we will cap the dataset at the 4250 artists collected from the Kaggle dataset (iteration 1) and the artists featured on their top 10 tracks (iteration 2) totalling around 14000 artists in total. This is largely due to the rate limit of the Spotify API and the scope of this project. This means that artists featured on songs by artists found in the second iteration who are not already a part of either iteration 1 or 2 will not be included in the dataset. This is visualized in Figure 2.
 
+{{< figure src="/images/FP-explainer.png" width="700" alt="explainer" class="center" >}}
+<p style="text-align: center;">Figure 2: Visual representation of data collected from the Spotify API.</p>
 
-- How are we pulling from the API using Kaggle? Explain how many features we are including (refer to figure 1).
+Our dataset resulting from querying the Spotify API now consists of 14888 rows. Each row represents an artist, and has the following important attributes: *Main Artist*, *Names of Top 10 Songs*, *Main Artist ID*, *Genres associated with Main Artist*, *Popularity*, *Followers*. 
+
+| Main Artist           | Song Names                                       | Genres                                                                         | Popularity | Followers | ID                 |
+|-----------------------|--------------------------------------------------|--------------------------------------------------------------------------------|------------|-----------|--------------------|
+| A Tribe Called Quest | ['Can I Kick It?', ..., 'Check the Rhime']       | [conscious hip hop, east coast hip hop, <br>golden age hip hop, hip hop, <br>jazz rap, queens hip hop] | 67         | 2,081,598 | 09hVIj6vWgoCDtT03h8ZCa |
+
 - Basic description of dataset (attributes, rows, MB).
 - Include example table of above.
 - Short intro to what we are using it for (motivation 1 sentence, mention network analysis) 
