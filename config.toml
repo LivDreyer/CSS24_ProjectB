@@ -7,7 +7,7 @@ theme = "theme"
     authors = ["Andreas Rosenquist", "Felix Lund Frandsen", "Liv Dreyer Johansen"]
     notebook = "/ProjectB_final.html"
     data = "https://github.com/LivDreyer/CSS24/blob/main/Project_B_Folder/Folder_With_All_CSV_Files.zip"
-    github = "https://github.com/LivDreyer/CSS24.git"
+    github = "https://github.com/LivDreyer/CSS24/tree/main/Project_B_Folder"
     [[params.nav]]
         label = "Data"
         link = "/data-description"
