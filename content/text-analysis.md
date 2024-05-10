@@ -2,17 +2,16 @@
 title: Text Analysis
 prev: network-analysis
 ---
-
-{{< figure src="/images/spotifycode.png" width="350" alt="explainer" class="center" >}}
-<p style="text-align: center;">If you would like to listen to a playlist of the 1000 songs used, scan this code with your Spotify app!</p>
-
 ## Motivation for analysis 
 
-Textual analysis of song lyrics is used in our project to investigate distinctive themes and language patterns across different genres. This approach is interesting for several reasons:
+The textual analysis of song lyrics is used in our project to investigate distinctive themes and language patterns across different genres. This approach is interesting for several reasons:
 
 **Genre-Specific Themes:** We would like to see if it is possible to identify genre-specific characteristics/themes. Analyzing these differences should help to define what sets the genres apart.
 
 **Comparative Analysis:** By looking into the frequency and context of words within genres, we can identify which themes and words are predominant for each genre. This analysis helps shed light on what characterizes the different genres.
+
+{{< figure src="/images/spotifycode.png" width="350" alt="explainer" class="center" >}}
+<p style="text-align: center;">If you would like to listen to a playlist of the 1000 songs used, scan this code with your Spotify app!</p>
 
 ## Analysis 
 We begin our analysis by cleaning the dataset, using regular expressions to ensure the text data is ready for analysis. Language detection algorithms identify the primary language of each song's lyrics, which is useful for accurate genre-specific analysis.
