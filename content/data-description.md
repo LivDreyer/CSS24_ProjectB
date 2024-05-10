@@ -40,12 +40,12 @@ Taking our starting point in the "US Top 10K Artists and Their Popular Songs"-da
 
 Our dataset resulting from querying the Spotify API now consists of 14888 rows. Each row represents an artist, and has the following important attributes: *Main Artist*, *Names of Top 10 Songs*, *Main Artist ID*, *Genres associated with Main Artist*, *Popularity*, *Followers*. 
 
-## Artist Information
+### Artist Information
 
 <table>
   <tr>
     <td style="padding-right: 10px;">Main Artist</td>
-    <td style="padding-right: 10px;">Song Names</td>
+    <td style="padding-right: 10px;">Song Names (10)</td>
     <td style="padding-right: 10px;">Genres</td>
     <td style="padding-right: 10px;">Popularity</td>
     <td style="padding-right: 10px;">Followers</td>
