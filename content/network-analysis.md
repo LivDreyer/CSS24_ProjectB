@@ -23,4 +23,4 @@ The analysis resulted in unexpected discoveries; artists would be more central t
 
 Contrarily, one of the project's weakest points is that it very rudimentarily categorizes less popular genres into more popular genres. Here the project could have used k-means or other clustering methods that would create more robust results. In relation to this, the “other” genre has not been addressed much in the analysis, but this was a genre that contained all other genres which was not easily classified with the rename genres function. Therefore, many improvements could have been made to the classifications of genres. But as scientific papers are being made solely on the use of Machine Learning to classify music genres of songs, it was accepted that the classification of genres to be rather rudimentary - considering the scope of the project. 
 
-> If you want to dive deeper into how we performed our analyses, visit our [Explainer Notebook](ProjectB_final.html)!
+> If you want to dive deeper into how we performed our analyses, visit our [Explainer Notebook](ProjectB_final1.html)!
