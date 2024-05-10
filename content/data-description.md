@@ -42,7 +42,7 @@ Our dataset resulting from querying the Spotify API now consists of 14888 rows. 
 
 | Main Artist           | Song Names                                       | Genres                                                                         | Popularity | Followers | ID                 |
 |-----------------------|--------------------------------------------------|--------------------------------------------------------------------------------|------------|-----------|--------------------|
-| A Tribe Called Quest | ['Can I Kick It?', ..., 'Check the Rhime']       | [conscious hip hop, east coast hip hop, <br>golden age hip hop, hip hop, <br>jazz rap, queens hip hop] | 67         | 2,081,598 | 09hVIj6vWgoCDtT03h8ZCa |
+| A Tribe Called Quest | ['Can I Kick It?', ..., 'Check the Rhime']       | [conscious hip hop, <br>east coast hip hop, <br>golden age hip hop, hip hop, <br>jazz rap, <br>queens hip hop] | 67         | 2,081,598 | 09hVIj6vWgoCDtT03h8ZCa |
 
 - Basic description of dataset (attributes, rows, MB).
 - Include example table of above.
