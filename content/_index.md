@@ -1,5 +1,5 @@
 ---
-title: Symphony of Data: A Comprehensive Analysis of Artist Collaborations and Lyrical Content in the Top Music Charts
+title: **Symphony of Data** A Comprehensive Analysis of Artist Collaborations and Lyrical Content in the Top Music Charts
 layout: single
 next: data-description
 ---
