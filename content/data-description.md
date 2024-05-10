@@ -4,7 +4,7 @@ prev: "/"
 next: network-analysis
 ---
 
-Finding data on artists is crucial to answering the research question: *"What is the relationship between artist collaboration patterns, popularity, and lyrical expression of genre themes?"*. 
+To address the research question, "*What is the relationship between artist collaboration patterns, popularity, and lyrical expression of genre themes?*", acquiring comprehensive data on artists is essential.
 
 <div style="text-align: center;">
     <div style="border-top: 3px solid #22c55e; margin-bottom: 10px;"></div>
@@ -15,12 +15,12 @@ Finding data on artists is crucial to answering the research question: *"What is
 </div>
 <p style="text-align: center;">Figure 1: Main Data Sources.</p>
 
-Data from API's such as the Spotify API and the Genius Lyrics API alongside addtional data from Kaggle will act as the foundation for the analyses. Collecting all data used for this project bears sign of a "chain-reaction". The dataset "US Top 10K Artists and Their Popular Songs" from Kaggle created a foundation for fetching data from the Spotify API, that then allowed for fetching data from the Genius Lyrics API which was then used for webscraping within the legal limits of Genius Lyrics.  
+We utilize data from APIs such as Spotify and Genius, supplemented by a Kaggle dataset, as the cornerstone of our analyses. This data collection process resembles a "chain reaction", where Kaggle's "*US Top 10K Artists and Their Popular Songs*" dataset serves as the starting point. From there, we access the Spotify API to enrich the dataset with artist information, subsequently utilizing the Genius API, within the legal boundaries, to augment the dataset further by webscraping.
 
 # Kaggle 
-Kaggle serves as a data science community offering various tools and resources for researchers and scientists. This analysis utilizes a ["US Top 10K Artists and Their Popular Songs"](https://www.kaggle.com/datasets/spoorthiuk/us-top-10k-artists-and-their-popular-songs), a dataset created by Spoorthi Uday Karakaraddi, providing "*a comprehensive collection of the top 10 popular songs for each of the 10,000 most-listened-to artists in the United States*" from 2023.
+Kaggle serves as a data science community offering various tools and resources for researchers and scientists. This analysis utilizes a ["US Top 10K Artists and Their Popular Songs"](https://www.kaggle.com/datasets/spoorthiuk/us-top-10k-artists-and-their-popular-songs), a dataset created by Spoorthi Uday Karakaraddi. This dataset offers a comprehensive collection of the top 10 popular songs for each of the 10,000 most-listened-to artists in the United States as of 2023, but due to the Spotify API rate limit, we are only using the top 4250 artists from the dataset.
 
-This project only utilize the file containing the artists and their associated attribute:
+We focus solely on the file containing artist information and their associated attributes:
 
 | Name          | ID                    | Genres                                            | Popularity | Followers |
 |---------------|-----------------------|---------------------------------------------------|------------|-----------|
@@ -29,17 +29,16 @@ This project only utilize the file containing the artists and their associated a
 | ...           | ...                   | ...                                               | ...        | ...       |
 | Pitbull       | 0TnOYISbd1XYRBk9myaseg | ['dance pop', 'miami hip hop', 'pop']             | 80         | 10,383,655|
 
-We are only using the top 4250 artists from the dataset due to the rate limit of the Spotify API, which will be introduced in the next section.
 
 # Spotify API
 - Spotify API general info, incl. rate limit free version, owner, rights etc.
 
-Taking our starting point in the "US Top 10K Artists and Their Popular Songs"-dataset, we query the Spotify API a multitude of times to construct the dataset for our network analysis and textual analysis. Using the Artists from the Kaggle dataset to collect their top 10 most popular tracks on Spotify, we find their collaborations. We then query the Spotify API for the top 10 tracks of the featured artists to find their possible collaborations. While its possible to expand our dataset to include more artists, we will cap the dataset at the 4250 artists collected from the Kaggle dataset (iteration 1) and the artists featured on their top 10 tracks (iteration 2) totalling around 14000 artists in total. This is largely due to the rate limit of the Spotify API and the scope of this project. This means that artists featured on songs by artists found in the second iteration who are not already a part of either iteration 1 or 2 will not be included in the dataset. This is visualized in Figure 2.
+We iteratively query the Spotify API to construct our dataset for network and textual analyses. Beginning with the Kaggle dataset, we collect the top 10 most popular tracks for each artist on Spotify. We then utilize this information to identify collaborations and query the Spotify API for the top 10 tracks of featured artists. Due to the API rate limit and project scope, we cap our dataset at approximately 14,000 artists, comprising the initial 4250 artists and those featured on their top tracks. This is visualized in Figure 2.
 
 {{< figure src="/images/FP-explainer.png" width="700" alt="explainer" class="center" >}}
 <p style="text-align: center;">Figure 2: Visual representation of data collected from the Spotify API.</p>
 
-Our dataset resulting from querying the Spotify API now consists of 14888 rows. Each row represents an artist, and has the following important attributes: *Main Artist*, *Names of Top 10 Songs*, *Main Artist ID*, *Genres associated with Main Artist*, *Popularity*, *Followers*. 
+Our dataset resulting from querying the Spotify API now consists of 14,888 rows. Each row represents an artist with the following important attributes: *Main Artist*, *Names of Top 10 Songs*, *Main Artist ID*, *Genres associated with Main Artist*, *Popularity*, *Followers*. 
 
 ### Artist Information
 
@@ -87,10 +86,7 @@ Our dataset resulting from querying the Spotify API now consists of 14888 rows. 
 </table>
 
 
-- Basic description of dataset (attributes, rows, MB).
-- Include example table of above.
-- Short intro to what we are using it for (motivation 1 sentence, mention network analysis) 
-
+This dataframes constructed throughout our data collection from the Spotify API, are used for both the network analysis, and to furthermore collect data from the Genius API. Through the top 10 tracks of each artist, we find the names of their collaborators, and use this information for creating our network. How we use it for the textual analysis will be introduced in the next section! 
 
 # Genius 
 - Genius API general info, incl. rate limit free version, owner, rights etc.
