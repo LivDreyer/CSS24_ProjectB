@@ -31,7 +31,7 @@ We focus solely on the file containing artist information and their associated a
 
 
 # Spotify API
-- Spotify API general info, incl. rate limit free version, owner, rights etc.
+The Spotify API provides endpoints for music metadata, playlist management, and user-related data. The API does have rate-limits, but they are not explicitly stated, and they vary depending on end-point used. We ran into the 5000 request limit per day related to music and artist metadata, but we also encountered a 50 song limit per instance of localhost, for manipulation of playlists.
 
 We iteratively query the Spotify API to construct our dataset for network and textual analyses. Beginning with the Kaggle dataset, we collect the top 10 most popular tracks for each artist on Spotify. We then utilize this information to identify collaborations and query the Spotify API for the top 10 tracks of featured artists. Due to the API rate limit and project scope, we cap our dataset at approximately 14,000 artists, comprising the initial 4250 artists and those featured on their top tracks. This is visualized in Figure 2.
 
