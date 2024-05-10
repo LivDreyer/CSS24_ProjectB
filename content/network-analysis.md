@@ -18,8 +18,8 @@ next: text-analysis
 - How are node connected (by what)?
 - Have we limited in any way? 1st and 2nd circle, number of features to be considered. 
 
-![](/images/network-placement-image.png)
-<p style="text-align: center;">Figure 2: Network.</p>
+![](/images/network.png)
+<p style="text-align: center;">Figure 2: Artist Collaboration Network genre-coded by color.</p>
 
 
 ## Artist network (better name of network)
