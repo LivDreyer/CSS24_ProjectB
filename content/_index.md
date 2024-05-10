@@ -1,5 +1,5 @@
 ---
-title: Symphony of Data 
+title: The Symphony of Data 
 layout: single
 next: data-description
 ---
