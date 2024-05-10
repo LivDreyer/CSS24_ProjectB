@@ -4,7 +4,6 @@ layout: single
 next: data-description
 ---
 
-## Motivation 
 Since the 1990’s, the number of songs with featuring artists have increased around 30%. A *featuring artist* is someone who appear as a secondary artist on a song. In 2023, 33 songs out of *Billboards* “Year-End Hot 100 singles” were created by more than one artist. Why is this? When an artist creates a song with one or more featuring artist(s), the featuring artist(s) is (are) essentially “guesting”, contributing their skill and brand to the song and its marketing. When speaking of features, or collaborations, it is often referring to vocals, while it is rarely used in reference to producers, samples, or others contributing to the process of creation in that sense. 
 
 The increase in such music collaborations have inspired researchers to study the success of songs with featuring artists opposed to those without , finding that releasing collaborative songs can increase an artist’s future plays. Furthermore, studies addressing the significance of genres in collaborative music find that greater difference between the genres of collaborating artists increase the likelihood of a song becoming popular. 
