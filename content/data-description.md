@@ -4,8 +4,6 @@ prev: "/"
 next: network-analysis
 ---
 
-## Short introduction to datasets and motivation for using them
-
 Finding data on artists is crucial to answering the research question: *"What is the relationship between artist collaboration patterns, popularity, and lyrical expression of genre themes?"*. 
 
 <div style="text-align: center;">
@@ -16,12 +14,12 @@ Finding data on artists is crucial to answering the research question: *"What is
     <div style="border-bottom: 3px solid #22c55e; margin-top: 10px;"></div>
 </div>
 
-Data from API's such as the Spotify API and the Genius Lyrics API alongside addtional data from Kaggle will act as the foundation for the analysis that will hopefully lead to our enlightenment on the above research question. Collecting all data used for this project bears sign of a "chain-reaction". The dataset "US Top 10K Artists and Their Popular Songs" from Kaggle created a foundation for fetching data from the Spotify API, that then allowed for fetching data from the Genius Lyrics API which was then used for webscraping within the legal limits of Genius Lyrics.  
+Data from API's such as the Spotify API and the Genius Lyrics API alongside addtional data from Kaggle will act as the foundation for the analyses. Collecting all data used for this project bears sign of a "chain-reaction". The dataset "US Top 10K Artists and Their Popular Songs" from Kaggle created a foundation for fetching data from the Spotify API, that then allowed for fetching data from the Genius Lyrics API which was then used for webscraping within the legal limits of Genius Lyrics.  
 
-## Kaggle 
-Kaggle serves as a data science community offering various tools and resources for researchers and scientists. This analysis utilizes a [dataset](https://www.kaggle.com/datasets/spoorthiuk/us-top-10k-artists-and-their-popular-songs) created by Spoorthi Uday Karakaraddi and it provides "*a comprehensive collection of the top 10 popular songs for each of the 10,000 most-listened-to artists in the United States*" from 2023.
+# Kaggle 
+Kaggle serves as a data science community offering various tools and resources for researchers and scientists. This analysis utilizes a ["US Top 10K Artists and Their Popular Songs"](https://www.kaggle.com/datasets/spoorthiuk/us-top-10k-artists-and-their-popular-songs), a dataset created by Spoorthi Uday Karakaraddi, providing "*a comprehensive collection of the top 10 popular songs for each of the 10,000 most-listened-to artists in the United States*" from 2023.
 
-This project only utilize the file containing the artists and their associated attributes. After data processing, we obtain the following information:
+This project only utilize the file containing the artists and their associated attribute:
 
 | Name          | ID                    | Genres                                            | Popularity | Followers |
 |---------------|-----------------------|---------------------------------------------------|------------|-----------|
@@ -30,18 +28,20 @@ This project only utilize the file containing the artists and their associated a
 | ...           | ...                   | ...                                               | ...        | ...       |
 | Pitbull       | 0TnOYISbd1XYRBk9myaseg | ['dance pop', 'miami hip hop', 'pop']             | 80         | 10,383,655|
 
+We are only using the top 4250 artists from the dataset due to the rate limit of the Spotify API, which will be introduced in the next section.
 
-- Basic description of dataset (attributes, rows, MB).
-- Include example table of above.
-
-## Spotify API
+# Spotify API
 - Spotify API general info, incl. rate limit free version, owner, rights etc.
+
+Taking our starting point in the "US Top 10K Artists and Their Popular Songs"-dataset, we query the Spotify API a multitude of times to construct the dataset for our network analysis and textual analysis. Using the Artists from the Kaggle dataset to collect their top 10 most popular tracks on Spotify, we find their collaborations. We then query the Spotify API for the top 10 tracks of the featured artists to find their possible collaborations. While its possible to expand our dataset to include more artists, we will cap the dataset at the 4250 artists collected from the Kaggle dataset (iteration 1) and the artists featured on their top 10 tracks (iteration 2) totalling around 14000 artists in total. This is largely due to the rate limit of the Spotify API and the scope of this project. This means that artists featured on songs by artists found in the second iteration who are not already a part of either iteration 1 or 2 will not be included in the dataset. This is visualized in figure 2.
+
+
 - How are we pulling from the API using Kaggle? Explain how many features we are including (refer to figure 1).
 - Basic description of dataset (attributes, rows, MB).
 - Include example table of above.
 - Short intro to what we are using it for (motivation 1 sentence, mention network analysis) 
 
-## Genius 
+# Genius 
 - Genius API general info, incl. rate limit free version, owner, rights etc.
 - How and what are we webscraping using results from Spotify API? 
 - Basic description of dataset (attributes, rows, MB).
