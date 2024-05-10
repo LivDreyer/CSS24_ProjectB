@@ -4,7 +4,7 @@ prev: network-analysis
 ---
 
 {{< figure src="/images/spotifycode.png" width="350" alt="explainer" class="center" >}}
-<p style="text-align: center;">Figure 4: If you would like to listen to a playlist of the 1000 songs used, scan this code with your Spotify app!</p>
+<p style="text-align: center;">If you would like to listen to a playlist of the 1000 songs used, scan this code with your Spotify app!</p>
 
 ## Motivation for analysis 
 
