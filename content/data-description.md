@@ -53,7 +53,7 @@ Our dataset resulting from querying the Spotify API now consists of 14888 rows. 
   </tr>
   <tr>
     <td>A Tribe Called Quest</td>
-    <td>['Can I Kick It?', ..., 'Check the Rhime']</td>
+    <td>['Can I Kick It?', <br>..., <br>'Check the Rhime']</td>
     <td>[conscious hip hop,<br>east coast hip hop,<br>golden age hip hop,<br>hip hop,<br>jazz rap,<br>queens hip hop]</td>
     <td>67</td>
     <td>2,081,598</td>
@@ -61,7 +61,7 @@ Our dataset resulting from querying the Spotify API now consists of 14888 rows. 
   </tr>
   <tr>
     <td>Bruno Mars</td>
-    <td>['Locked out of heaven', ..., 'Grenade']</td>
+    <td>['Locked out of heaven', <br>..., <br>'Grenade']</td>
     <td>[dance pop, pop]</td>
     <td>89</td>
     <td>54,550,331</td>
@@ -77,7 +77,7 @@ Our dataset resulting from querying the Spotify API now consists of 14888 rows. 
   </tr>
   <tr>
     <td>DJ Khaled</td>
-    <td>['GREECE (feat. Drake)', ..., <br>'POPSTAR (feat. Drake)']</td>
+    <td>['GREECE (feat. Drake)', <br>..., <br>'POPSTAR (feat. Drake)']</td>
     <td>[hip hop, <br>miami hip hop, <br>pop rap, rap]</td>
     <td>75</td>
     <td>11,185,726</td>
