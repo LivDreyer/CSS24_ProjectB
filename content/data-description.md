@@ -48,6 +48,28 @@ Our dataset resulting from querying the Spotify API now consists of 14888 rows. 
 - Include example table of above.
 - Short intro to what we are using it for (motivation 1 sentence, mention network analysis) 
 
+<table>
+  <tr>
+    <td style="padding-right: 10px;">Main Artist</td>
+    <td style="padding-right: 10px;">Song Names</td>
+    <td style="padding-right: 10px;">Genres</td>
+    <td style="padding-right: 10px;">Popularity</td>
+    <td style="padding-right: 10px;">Followers</td>
+    <td>ID</td>
+  </tr>
+  <tr>
+    <td>A Tribe Called Quest</td>
+    <td>['Can I Kick It?', ..., 'Check the Rhime']</td>
+    <td>[conscious hip hop,<br>east coast hip hop,<br>golden age hip hop,<br>hip hop,<br>jazz rap,<br>queens hip hop]</td>
+    <td>67</td>
+    <td>2,081,598</td>
+    <td>09hVIj6vWgoCDtT03h8ZCa</td>
+  </tr>
+</table>
+
+
+
+
 # Genius 
 - Genius API general info, incl. rate limit free version, owner, rights etc.
 - How and what are we webscraping using results from Spotify API? 
