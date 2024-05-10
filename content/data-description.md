@@ -13,6 +13,7 @@ Finding data on artists is crucial to answering the research question: *"What is
     <a href="https://www.kaggle.com/datasets/spoorthiuk/us-top-10k-artists-and-their-popular-songs" style="display: inline-block;"><img src="/images/kaggle-logo.webp" alt="Kaggle" width="150" height="150"></a>
     <div style="border-bottom: 3px solid #22c55e; margin-top: 10px;"></div>
 </div>
+<p style="text-align: center;">Figure 1: Main Data Sources.</p>
 
 Data from API's such as the Spotify API and the Genius Lyrics API alongside addtional data from Kaggle will act as the foundation for the analyses. Collecting all data used for this project bears sign of a "chain-reaction". The dataset "US Top 10K Artists and Their Popular Songs" from Kaggle created a foundation for fetching data from the Spotify API, that then allowed for fetching data from the Genius Lyrics API which was then used for webscraping within the legal limits of Genius Lyrics.  
 
