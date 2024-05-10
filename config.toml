@@ -1,13 +1,13 @@
 baseURL = "https://LivDreyer.github.io/CSS24_ProjectB"
 title = "Social Informatics"
-description = "This is a project description"
+description = "Symphony of Data"
 relativeURLs = true
 theme = "theme" 
 [params]
     authors = ["Andreas Rosenquist", "Felix Lund Frandsen", "Liv Dreyer Johansen"]
     notebook = "/explainer-notebook.html"
     data = "https://drive.google.com"
-    github = "https://github.com/peterampazzo/project-website-template"
+    github = "https://github.com/LivDreyer/CSS24.git"
     [[params.nav]]
         label = "Data"
         link = "/data-description"
